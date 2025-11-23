@@ -62,7 +62,7 @@ Sử dụng **mô hình Modular Monolith (Khối đơn nhất dạng mô-đun)**
 
 ## Tech Stack
 ### Backend
-- Lựa chọn Golang + Gin Framework (khuyến khích)/Javascript (altenative)
+- Lựa chọn Rust (khuyến khích)/Javascript (altenative)
 
 > **Hiệu năng:** Go là ngôn ngữ biên dịch (compiled), xử lý concurrency (đồng thời) cực tốt. Với yêu cầu "không giới hạn người dùng" và xử lý dữ liệu thời gian thực từ nhiều chi nhánh, Go vượt trội so với Node.js hay.NET cũ.
 
@@ -165,7 +165,7 @@ Cần soạn thảo văn bản TOS tích hợp vào App/Web, bao gồm các đi�
 - **Chính sách bảo quản tài sản**: Quy định rõ Gara không chịu trách nhiệm với tiền bạc, tư trang quý giá để quên trên xe nếu khách hàng không khai báo và niêm phong khi bàn giao (Check-in). Toàn bộ trách nhiệm sẽ không quy về cho NekoTech (đơn vị cung cấp phần mềm), NekoTech chỉ cung cấp công cụ quản lý.
 - **Điều khoản thanh toán:** Quy định về việc tạm dừng giấy phép phần mềm/gián đoạn dịch vụ nếu Garage không thanh toán chi phí sử dụng dịch vụ.
 ## Chính Sách Bảo Mật (Privacy Policy)
-- **Thu thập dữ liệu:** Giải thích rõ iCar thu thập: Tên, SĐT, Biển số, Vị trí (cho tính năng cứu hộ).
+- **Thu thập dữ liệu:** Giải thích rõ NekoGarage thu thập: Tên, SĐT, Biển số, Vị trí (cho tính năng cứu hộ).
 - **Sử dụng dữ liệu:** Dùng để liên lạc, nhắc bảo dưỡng, gửi ưu đãi. Cam kết không bán dữ liệu cho bên thứ ba.
 - **Quyền của chủ thể dữ liệu:** Khách hàng có quyền yêu cầu xóa dữ liệu cá nhân (Right to be forgotten), tuy nhiên dữ liệu lịch sử sửa chữa xe vẫn phải được lưu trữ theo quy định kế toán và an toàn kỹ thuật (nhưng sẽ được ẩn danh tính).
 # Giai đoạn xây dựng
@@ -256,10 +256,10 @@ Cần soạn thảo văn bản TOS tích hợp vào App/Web, bao gồm các đi�
 trình bày chi tiết trong bản kế hoạch riêng của nhóm
 # NekoTech Foundation Team
 Team tham gia dự án bao gồm
-- @akk1to: Lead dự án, thực hiện DevOps, Network, Security, Backend.
-- @captainnhwuy: Thực hiện Frontend, Database.
-- @Khoasoma: Thực hiện Backend (30%), Database, AI recognition.
-- @maiminhdung: Thực hiện Backend (70%), Mobile Application.
+- @akk1to: Lead dự án, thực hiện DevOps, Network, Security, Backend, AI recognition.
+- @captainnhwuy: Thực hiện Frontend.
+- @Khoasoma: Thực hiện Backend (60%), Database, AI recognition.
+- @maiminhdung: Thực hiện Backend (40%), Mobile Application.
 > Dự án NekoGarage đã được đăng ký bản quyền dưới quyền của NekoTech Foundation. Mọi hành vi tham khảo, sao chép, sử dụng một phần mã nguồn hoặc toàn bộ mã nguồn mà chưa được sự đồng ý của 3/4 thành viên của Team sẽ được coi là hành vi vi phạm pháp luật.
 
 -# Copyright (C) 2025 - 2026 NekoTech Foundation - Docs written by @akk1to
